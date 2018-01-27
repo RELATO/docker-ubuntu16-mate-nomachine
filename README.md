@@ -1,17 +1,18 @@
 # docker-ubuntu-mate-desktop-nomachine
-Ubuntu Desktop 16.04 (MATE) Dockerfile with NoMachine remote access and firefox, libreoffice and tor-browser
+Ubuntu Desktop 16.04 (MATE) Dockerfile with NoMachine remote access and firefox
+Inspired by: https://github.com/cesarandreslopez/docker-ubuntu-mate-desktop-nomachine.git
 
 # How to run
 ## Build
 
 ```
-git clone https://github.com/cesarandreslopez/docker-ubuntu-mate-desktop-nomachine.git
-cd docker-ubuntu-mate-desktop-nomachine
-docker build -t=cesarandreslopez/docker-ubuntu-mate-desktop-nomachine .
+git clone https://github.com/RELATO/relato/docker-ubuntu16-mate-nomachine.git
+cd docker-ubuntu16-mate-nomachine
+docker build -t=relato/docker-ubuntu16-mate-nomachine .
 ```
 ## Docker pull command
 ```
-docker pull cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+docker pull relato/docker-ubuntu16-mate-nomachine
 ```
 
 ## Enviroment vaiables
@@ -21,7 +22,7 @@ PASSWORD -> password for the nomachine login
 ## Usage
 
 ```
-docker run -d -p 4000:4000 --name desktop -e PASSWORD=password -e USER=user --cap-add=SYS_PTRACE cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+docker run -d -p 4000:4000 --name desktop -e PASSWORD=secret* -e USER=relato --cap-add=SYS_PTRACE relato/docker-ubuntu16-mate-nomachine
 ```
 
 ## Connect to the container

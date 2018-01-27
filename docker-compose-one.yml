@@ -1,0 +1,13 @@
+version: '2'
+services:
+  Desktop-1:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4001:4000/tcp

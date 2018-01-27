@@ -2,12 +2,332 @@ version: '2'
 services:
   Desktop-1:
     environment:
-    - PASSWORD=password
-    - USER=user
+    - PASSWORD=secret*
+    - USER=relato
     cap_add:
     - SYS_PTRACE
     image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
     stdin_open: true
     tty: true
     ports:
-    - 4000:4000/tcp
+    - 4001:4000/tcp
+  Desktop-2:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4002:4000/tcp
+  Desktop-3:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4003:4000/tcp
+  Desktop-4:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4004:4000/tcp
+  Desktop-5:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4005:4000/tcp
+  Desktop-6:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4006:4000/tcp
+  Desktop-7:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4007:4000/tcp
+  Desktop-8:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4008:4000/tcp
+  Desktop-9:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4009:4000/tcp
+  Desktop-10:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4010:4000/tcp
+  Desktop-11:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4011:4000/tcp
+  Desktop-12:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4012:4000/tcp
+  Desktop-13:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4013:4000/tcp
+  Desktop-14:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4014:4000/tcp
+  Desktop-15:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4015:4000/tcp
+  Desktop-16:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4016:4000/tcp
+  Desktop-17:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4017:4000/tcp
+  Desktop-18:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4018:4000/tcp
+  Desktop-19:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4019:4000/tcp
+  Desktop-20:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4020:4000/tcp
+
+  Desktop-21:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4021:4000/tcp
+  Desktop-22:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4022:4000/tcp
+  Desktop-23:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4023:4000/tcp
+  Desktop-24:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4024:4000/tcp
+  Desktop-25:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4025:4000/tcp
+  Desktop-26:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4026:4000/tcp
+  Desktop-27:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4027:4000/tcp
+  Desktop-28:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4028:4000/tcp
+  Desktop-29:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4029:4000/tcp
+  Desktop-30:
+    environment:
+    - PASSWORD=secret*
+    - USER=relato
+    cap_add:
+    - SYS_PTRACE
+    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    stdin_open: true
+    tty: true
+    ports:
+    - 4030:4000/tcp

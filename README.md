@@ -28,3 +28,7 @@ docker run -d -p 4000:4000 --name desktop -e PASSWORD=secret* -e USER=relato --c
 ## Connect to the container
 
 Download the NoMachine client from: https://www.nomachine.com/download, install the client, create a new connection to your public ip, port 4000, NX protocol, use enviroment user and password for authentication (make sure to setup enviroment variables for that)
+
+## Tips
+
+https://www.nomachine.com/sharing-files-between-computers

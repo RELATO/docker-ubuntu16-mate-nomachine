@@ -6,7 +6,7 @@ services:
     - USER=relato
     cap_add:
     - SYS_PTRACE
-    image: cesarandreslopez/docker-ubuntu-mate-desktop-nomachine
+    image: relato/docker-ubuntu16-mate-nomachine
     stdin_open: true
     tty: true
     ports:
